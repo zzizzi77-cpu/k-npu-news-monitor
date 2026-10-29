@@ -19,7 +19,7 @@
 ```bash
 python npu_news_monitor.py --days 1              # 어제 하루
 python npu_news_monitor.py --days 180 --json     # 6개월, JSON 원자료 포함
-python npu_news_monitor.py --from-file sample_output/raw_headlines_2026-10-27.md   # 네트워크 없이 샘플 재현
+python npu_news_monitor.py --from-file demo_github/sample_output/raw_headlines_2026-10-27.md   # 네트워크 없이 샘플 재현
 ANTHROPIC_API_KEY=... python npu_news_monitor.py --days 7 --llm
 ```
 
@@ -33,7 +33,7 @@ ANTHROPIC_API_KEY=... python npu_news_monitor.py --days 7 --llm
 
 ## 샘플 결과 (2026-10-27, 최근 180일)
 
-`sample_output/brief_2026-10-27.md` 참고 (원자료 `sample_output/raw_headlines_2026-10-27.md`를 `--from-file`로 돌린 결과). 요약:
+`demo_github/sample_output/brief_2026-10-27.md` 참고 (원자료 `demo_github/sample_output/raw_headlines_2026-10-27.md`를 `--from-file`로 돌린 결과). 요약:
 
 | 회사 | 건수 | 자사 주어 비율 | 부정 | 상위 주제 |
 |---|---|---|---|---|
